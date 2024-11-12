@@ -9,7 +9,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
-import proj1 from "/public/images/projects/clay-theme.png";
+import proj1 from "/public/images/projects/carisle.png";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -58,7 +58,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Clay - Gatsby Theme"
+            text="Applicant Tracking System (ATS)"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -68,31 +68,36 @@ export default function About() {
             md:col-span-8"
             >
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Unlocking the Power of Gatsby v5+ & NetlifyCMS with Clay Theme.
+                Unlocking the Power of Node.js & Mongoose with the Applicant
+                Tracking System (ATS)
               </h2>
               <h3 className="mb-4 text-lg font-bold  text-lightGreen dark:text-primaryDark">
-                Content | Web Design | UX/UI | Development
+                Content | Web Development | Recruitment Technology | Automation
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
               <p className="">
-                I am thrilled to share some exciting news with the web
-                development community! I have recently launched a cutting-edge
-                Gatsby Framework Template called Clay, meticulously crafted to
-                seamlessly integrate with Netlify CMS, providing an effortless
-                and efficient solution for content management in the realm of
-                web development.
+                The Applicant Tracking System (ATS) is designed to streamline
+                the hiring process, from initial candidate application to final
+                hiring. It provides a centralized platform for managing
+                applicants, tracking their progress through various interview
+                stages, and automating many of the administrative tasks involved
+                in recruitment. The ATS supports HR teams by offering clear
+                insights into the hiring funnel, allowing for better
+                decision-making and faster recruitment cycles.
               </p>
               <h4 className="mt-4 text-lg font-800 capitalize text-dark/75 dark:text-light/75">
-                Unleashing the Power of Gatsby Framework
+                Streamlining Recruitment with a Powerful Framework
               </h4>
               <p className="my-4">
-                At the heart of Clay lies the robust Gatsby Framework. This
-                innovative framework empowers developers to leverage the latest
-                web technologies, including React, GraphQL, and Webpack. The
-                outcome is nothing short of exceptional—Clay delivers
-                lightning-fast, highly optimized websites, waving goodbye to the
-                era of slow load times and ushering in an age of unparalleled
-                performance.
+                The ATS utilizes modern web technologies like React and Tailwind
+                CSS for an intuitive and responsive user interface. HR
+                professionals can filter, update, and manage applicant data
+                easily from a centralized dashboard. The system’s automated
+                workflow, triggered when an applicant’s status changes, allows
+                recruiters to focus on strategic hiring decisions rather than
+                administrative tasks. React Hook Form is employed to manage data
+                submissions, ensuring a seamless user experience with real-time
+                validation.
               </p>
 
               <div className="mt-2 flex items-center grid-cols-8 gap-4 sm:gap-8">
@@ -104,26 +109,10 @@ export default function About() {
             dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
             md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
-                  href="https://clay-theme.netlify.app"
+                  href="https://neoats-applicant.vercel.app/"
                   target={"_blank"}
                 >
                   Visit Demo
-                </Link>
-                <Link
-                  href="https://github.com/lilxyzz/clay-theme"
-                  target={"_blank"}
-                  className="w-10"
-                  aria-label="github link"
-                >
-                  <GithubIcon />
-                </Link>
-                <Link
-                  href="https://dev.to/lilxyzz/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
-                  target={"_blank"}
-                  className="w-10"
-                  aria-label="github link"
-                >
-                  <DevIcon />
                 </Link>
               </div>
             </div>
